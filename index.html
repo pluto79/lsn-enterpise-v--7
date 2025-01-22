@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/brand-rounded.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>LSN Enterprise</title>
+</head>
+<body>
+    <!-- Navigation Large-->
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top mobile-down">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"> <img src="img/brand.png" alt="" class="nav-brand"> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link my-nav-link" aria-current="page" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link my-nav-link" href="service.html">SERVICE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link my-nav-link" href="about.html">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link my-nav-link" href="contact.html">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link my-nav-link" href="projects.html">PROJECTS </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!-- Navigation Mobile-->
+    <nav class="navbar navbar-dark bg-dark laptop-down">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="img/brand.png" alt="" class="nav-brand"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <a class="navbar-brand" href="index.html"> <img src="img/brand.png" alt="" class="nav-brand"> </a>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>                
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="service.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Service
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="information-tech.html"><i class="fa-solid fa-hand-point-right point-icon"></i> Information Technology</a></li>
+                    <hr class="dropdown-divider">
+                    <li><a class="dropdown-item" href="fleet.html"><i class="fa-solid fa-hand-point-right point-icon"></i> Fleet Management Systems</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="engineering.html"> <i class="fa-solid fa-hand-point-right point-icon"></i> Engineering Services</a></li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="safety.html"> <i class="fa-solid fa-hand-point-right point-icon"></i> Safety Systems</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="projects.html"> Projects </a>
+                </li>
+                <li class="nav-item social-box">
+                  <a href="https://www.facebook.com/profile.php?id=61562473707654"><i class="fa-brands fa-facebook social-icons--nav nav-social-icon"></i></a>
+                  <a href="https://www.instagram.com/lsn_enterprise/"><i class="fa-brands fa-instagram social-icons--nav nav-social-icon"></i></a>
+                  <a href="https://x.com/Lsnenterprise"><i class="fa-brands fa-twitter social-icons--nav nav-social-icon"></i></a>
+                </li>
+                <li class="nav-item text-center">
+                  <a href="" class="nav-link"><small class="">Copyright © <span class="footer-headings">LSN ENTERPRISE PTY LTD</span>  2024</small></a> 
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <!-- Header Section Large-->
+    <header class="vid-hero vid-header__mobile mobile-down">
+        <video src="vid/index-header-vid.mp4" autoplay muted loop ></video>
+            <div class="vid-hero">
+                <div class="container container-body container-body-header">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-5 col-xl-5 col-xxl-6 d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="img/brand.png" alt="..." /></div>                        
+                        <div class="col-lg-7 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-5 fw-bolder text-white mb-2 my-h1">Welcome to <span class="footer-headings">LSN ENTERPRISE</span> </h1>
+                                <p class="lead fw-normal text-white-50 mb-4 my-paragraph my-paragraph-header">We specialize in customized solutions across IT Solutions, Safety Systems, Fleet Management Systems and Engineering Services.</p>
+                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                                    <a class="btn my-btn btn-md px-4 me-sm-3" href="#features">Get Started</a>
+                                    <a class="btn btn-outline-light btn-md px-4" href="about.html">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <!-- Header Section Mobile -->
+    <header class="vid-hero vid-header-mobile laptop-down">
+            <div class="vid-hero">
+                <div class="container container-body container-body-header container-body-header-mobile">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-5 col-xl-5 col-xxl-6 d-xl-block text-center mb-4">
+                          <img class="img-fluid rounded-3 my-5 img-header-brand" src="img/brand.png" alt="..." />
+                        </div>                        
+                            <div class="col-lg-7 col-xl-7 col-xxl-6 text-warp-header-mobile">
+                                <div class="my-5 text-center text-xl-start mt-4">
+                                  <h1 class="display-5 fw-bolder text-white mb-2 my-h1 mt-4">Welcome to <span class="footer-headings">LSN ENTERPRISE</span> </h1>
+                                  <p class="lead fw-normal text-white-50 mb-4 my-paragraph my-paragraph-header">We specialize in customized solutions across IT Solutions, Fleet Management Systems, Safety Systems and Engineering Services.</p>
+                                    <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                                        <a class="btn my-btn btn-sm" href="#features">Get Started</a>
+                                        <a class="btn btn-outline-light my-btn-white btn-sm" href="about.html">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </header>
+
+    <!--About Section -->
+    <div class="container-fluid container-fluid-index-about laptop-small-pb-9" id="features">
+        <div class="container container-body container-body-about">
+            <div class="row">
+              <div class="col-12 d-md-block d-lg-none container-body-img-col laptop-down">
+                  <div class="container-body-img-warp">
+
+                  </div>   
+              </div>  
+
+
+                <div class="col-xxl-6 col-xl-6 col-lg-7 placeholder-col"></div>
+                <div class="col-xxl-6 col-xl-6 col-lg-5">
+                    <div class="container-body-text-warp">
+                        <h1 class="display-5 fw-bolder  mb-2"> ABOUT US</h1>
+                        <p class="lead fw-normal text-muted mb-4 my-paragraph container-body-paragraph ">
+                          <i class="fa-solid fa-hand-point-right point-icon"></i> LSN Enterprise, founded in 2024 by two visionary business partners. LSN Enterprise leverages its extensive expertise in the relevant fields of the company's service offerings. Both directors contribute over 15 years of experience in mining and the public sector, specializing in information technology and engineering.
+                        </p>
+                        <p class="lead fw-normal text-muted mb-4 container-body-paragraph d-md-block  my-paragraph">                    
+                          <i class="fa-solid fa-hand-point-right point-icon"></i> Our mission is to provide innovative information technology, fleet management systems, safety systems, and engineering services. Our services enhance efficiency, safety, and reliability, empowering diverse businesses to achieve operational excellence and sustainable growth.
+                        </p>
+
+                        <a class="btn my-btn btn-lg px-4 me-sm-3" href="#more"> Learn More </a>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>
+
+    <!--Service Section -->
+    <div class="container-fluid container-fluid-service" id="more">
+      <div class="container container-body-service">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12">
+            <div class="heading-warp text-center">
+              <h1 class="display-5 fw-bolder text-muted mb-2"> EXPLORE OUR SERVICES</h1>
+            </div>
+          </div>
+
+          <div class="col-md-8">
+            <div class="card my-card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4 my-card-img-warp my-card-img-warp-1">
+                  <img src="img/3.jpg" class="img-fluid rounded-start d-md-none d-sm-block" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <a href="information-tech.html" class="my-card-link">
+                    <div class="card-body card-body-index">
+                      <h5 class="card-title footer-headings">INFORMATION TECHNOLOGY</h5>
+                      <p class="card-text my-paragraph text-muted">We provide complete IT solutions, including cloud services, cybersecurity, and data management to protect your information. Our services help you run your operations smoothly and increase productivity with dependable systems.
+                      </p>
+                    </div>                    
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-8">
+            <div class="card my-card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4 my-card-img-warp my-card-img-warp-2">
+                  <img src="img/6.jpg" class="img-fluid rounded-start d-md-none d-sm-block" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <a href="engineering.html" class="my-card-link">
+                    <div class="card-body card-body-index text-muted">
+                      <h5 class="card-title footer-headings">ENGINEERING SERVICES</h5>
+                      <p class="card-text">We offer a range of engineering services, including system design, project management, and technical consulting, to improve system performance. Our services help ensure project success and maintain smooth operations.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-8">
+            <div class="card my-card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4 my-card-img-warp my-card-img-warp-3">
+                  <img src="img/4.jpg" class="img-fluid rounded-start d-md-none d-sm-block" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <a href="safety.html" class="my-card-link">
+                    <div class="card-body card-body-index text-muted">
+                      <h5 class="card-title footer-headings">SAFETY SYSTEMS</h5>
+                      <p class="card-text">We provide advanced safety systems, including automated monitoring, hazard detection, and emergency response solutions. These tools help your organization manage risks, reduce accidents, and ensure compliance.</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-8 mb-4">
+            <div class="card my-card mb-3" style="max-width: auto;">
+              <div class="row g-0">
+                <div class="col-md-4 my-card-img-warp my-card-img-warp-4">
+                  <img src="img/5.jpg" class="img-fluid rounded-start d-md-none d-sm-block" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <a href="fleet.html" class="my-card-link">
+                    <div class="card-body card-body-index text-muted">
+                      <h5 class="card-title footer-headings">FLEET MANAGEMENT SYSTEMS</h5>
+                      <p class="card-text">We provide fleet management systems that offer real-time tracking, route optimization, maintenance scheduling, and compliance management. These systems help businesses reduce fuel costs, improve vehicle use, ensure timely maintenance, and meet regulatory requirements.</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-8 text-center mb-4">
+            <a class="btn my-btn btn-lg px-4 me-sm-3 mb-4" href="service.html"> Learn More </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Industries Section-->
+    <div class="container-fluid container-fluid-industries">
+      <div class="container container-body container-body-industries">
+        <div class="row">
+          <div class="col-12 d-md-block d-lg-none container-body-img-col laptop-down">
+            <div class="container-body-img-warp--2">
+
+            </div>   
+          </div> 
+          <div class="col-xxl-5 col-xl-6 col-lg-7 placeholder-col"></div>
+          <div class="col-xxl-7 col-xl-6 col-lg-5">
+              <div class="container-body-text-warp">
+                  <h1 class="display-5 fw-bolder mb-2 heading-industries"> WE CATER TO A WIDE OF INDUSTRIES</h1>
+                  <p class="lead fw-normal text-muted mb-4 my-paragraph container-body-paragraph ">
+                    <i class="fa-solid fa-hand-point-right point-icon"></i> Logistics & Transportation
+                  </p>
+                  <p class="lead fw-normal text-muted mb-4 my-paragraph container-body-paragraph ">
+                    <i class="fa-solid fa-hand-point-right point-icon"></i> Manufacturing & Industrial firms
+                  </p>
+                  <p class="lead fw-normal text-muted mb-4 my-paragraph container-body-paragraph ">
+                    <i class="fa-solid fa-hand-point-right point-icon"></i> Construction Companies
+                  </p>
+                  <p class="lead fw-normal text-muted mb-4 my-paragraph container-body-paragraph ">
+                    <i class="fa-solid fa-hand-point-right point-icon"></i> Energy & Utilities
+                  </p>
+                  <p class="lead fw-normal text-muted mb-4 my-paragraph container-body-paragraph ">
+                    <i class="fa-solid fa-hand-point-right point-icon"></i> Agriculture
+                  </p>
+                  <p class="lead fw-normal text-muted mb-4 my-paragraph container-body-paragraph ">
+                    <i class="fa-solid fa-hand-point-right point-icon"></i> Mining & Extraction
+                  </p>
+
+                  <div class="col-md-12 mb-4">
+                    <a class="btn my-btn btn-lg px-4 me-sm-3 mb-4" href="#more-2"> Learn More </a>
+                  </div>
+              </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+
+    <!--Stand-out-->
+    <div class="container-fluid container-fluid-service" id="more-2">
+      <div class="container container-body container-body-standout">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="heading-warp heading-warp-standout">
+              <h1 class="display-5 fw-bolder text-muted mb-2 my-h1"> What differentiates us from our competitors</h1>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="container-body-text-warp mb-4">
+              <h5 class="footer-headings">Comprehensive Integrated Solutions</h5>
+              <p class="lead fw-normal text-muted mb-4 my-paragraph container-body-paragraph ">
+                <i class="fa-solid fa-hand-point-right point-icon"></i> Our company offers a comprehensive suite of integrated solutions that encompass information technology, fleet management systems, safety systems, and engineering services.
+              </p>
+              <h5 class="footer-headings">Your Needs, Our Priority</h5>
+              <p class="lead fw-normal text-muted mb-4 my-paragraph container-body-paragraph ">
+                <i class="fa-solid fa-hand-point-right point-icon"></i> Unlike many competitors that offer generic solutions, we specialize in tailoring our services to meet the unique needs of each client.
+              </p>
+              <h5 class="footer-headings">Commitment to Innovation</h5>
+              <p class="lead fw-normal text-muted mb-4 my-paragraph container-body-paragraph">
+                <i class="fa-solid fa-hand-point-right point-icon"></i> We are committed to staying at the forefront of technological advancements, by continuously integrating the latest innovations in Information Technology into our services.
+              </p>
+              <h5 class="footer-headings">Expert Engineering Support Services</h5>
+              <p class="lead fw-normal text-muted mb-4 my-paragraph container-body-paragraph ">
+                <i class="fa-solid fa-hand-point-right point-icon"></i> We specialize in providing expert engineering support, including system design, project management, and technical consulting. Our high level of technical expertise and precision sets us apart from many competitors.
+              </p>
+              <h5 class="footer-headings">Diverse Solutions for Modern Challenges</h5>
+              <p class="lead fw-normal text-muted mb-4 my-paragraph container-body-paragraph mb-4">
+                <i class="fa-solid fa-hand-point-right point-icon"></i> Our company offers the best comprehensive suite of integrated solutions that encompass information technology, fleet management systems, safety systems, and engineering services.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="container-fluid container-fluid-index-contact">
+      <div class="container container-body">
+        <div class="row">
+          <div class="col-12">
+            <div class="heading-warp text-center">
+              <h1 class="display-5 fw-bolder mb-2 my-h1"> Get in Touch </h1>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-3">
+            <div class="text-center">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3586.085929751644!2d28.014401975461617!3d-25.99800237720411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9576d2a0e4c763%3A0xfd42dc87794d412b!2s139%20Soho%20Ln%2C%20Beverley%20AH%2C%20Sandton!5e0!3m2!1sen!2sza!4v1729507839866!5m2!1sen!2sza" width="420" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map-frame mb-4"></iframe>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="text-muted">Contact Us</h3>
+            <form id="form">
+              <div class="mb-3">
+                  <label for="from_name" class="form-label">Name</label>
+                  <input type="text" class="form-control" name="from_name" id="from_name" placeholder="Enter your name" required>
+              </div>
+              
+              <div class="mb-3">
+                  <label for="email" class="form-label">Email address</label>
+                  <input type="email" class="form-control" name="email_id" id="email_id" placeholder="Enter your email" required>
+              </div>
+
+              <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" name="message" id="message" rows="4" placeholder="Write your message here" required></textarea>
+              </div>                         
+              <input type="submit" id="button" value="Send Email" class="my-btn">
+
+          </form>
+          <div id="responseMessage" class="mt-3"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--Footer-->
+    <footer class="footer bg-dark mt-4">
+      <div class="container">
+        <div class="row">
+          <!-- Column 1 -->
+          <div class="col-md-4 text-center">
+              <img src="img/brand.png" alt="" class="footer-logo">
+          </div>
+          <!-- Column 2 -->
+          <div class="col-md-4 footer-content--box">
+            <h5 class="footer-headings">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="index.html" class=" my-footer-link">Home</a></li>
+              <li><a href="service.html" class="my-footer-link">Service</a></li>
+              <li><a href="about.html" class="my-footer-link">About</a></li>
+              <li><a href="contact.html" class="my-footer-link">Contact</a></li>
+              <li><a href="information-tech.html" class="my-footer-link">Information Technology </a></li>
+              <li><a href="fleet.html" class="my-footer-link">Fleet Management Systems</a></li>
+              <li><a href="engineering.html" class="my-footer-link"> Engineering Services </a></li>
+              <li><a href="safety.html" class="my-footer-link"> Safety Systems </a></li>
+              <li><a href="projects.html" class="my-footer-link"> Projects </a></li>
+            </ul>
+          </div>
+          <!-- Column 3 -->
+          <div class="col-md-4 footer-content--box">
+            <h5 class="footer-headings">Contact Us</h5>
+            <p class="text-white">
+              <strong> <i class="fa-solid fa-location-dot"></i> Address:</strong><br>
+              <a href="https://www.google.co.za/maps/place/139+Soho+Ln,+Beverley+AH,+Sandton/@-25.9980024,28.014402,17z/data=!3m1!4b1!4m5!3m4!1s0x1e9576d2a0e4c763:0xfd42dc87794d412b!8m2!3d-25.9980024!4d28.0169769?hl=en&entry=ttu&g_ep=EgoyMDI0MTAxNi4wIKXMDSoASAFQAw%3D%3D" class="my-footer-link">139 Soho Ln, Beverley AH, Sandton </a> 
+              <br>
+              <a href="https://www.google.co.za/maps/place/24+Perel+St,+Kathu,+8446/@-27.7101017,23.0507363,17z/data=!3m1!4b1!4m5!3m4!1s0x1e9e41206bad9a19:0x450cbea56786afe2!8m2!3d-27.7101017!4d23.0507363?hl=en&entry=ttu&g_ep=EgoyMDI0MTAxNi4wIKXMDSoASAFQAw%3D%3D" class="my-footer-link">24 Perel St, Kathu, Northen Cape, 8446</a> 
+            </p>
+            <p class="text-white">
+              <strong><i class="fa-solid fa-envelope"></i> Email:</strong><br>
+              <a href="mailto:info@example.com" class="my-footer-link">info@lsnenterprise.co.za</a>
+            </p>
+            <p class="text-white">
+              <strong> <i class="fa-solid fa-phone"></i> Phone:</strong><br>
+               <span class="my-footer-link"> +27 (82) 392 - 2195</span>
+            </p>
+            <p class="text-white">
+               <a href="https://www.lsnenterprise.co.za/" class="my-footer-link"> Built by LSN Enterprise Copyright © <br> by <span class="footer-headings">LSN Enterprise</span>  2024</a>
+            </p>
+            <p class="text-white">
+              <a href="https://www.facebook.com/profile.php?id=61562473707654"><i class="fa-brands fa-facebook social-icons--nav footer-icons--nav my-footer-link"></i></a>
+              <a href="https://www.instagram.com/lsn_enterprise/"><i class="fa-brands fa-instagram social-icons--nav footer-icons--nav my-footer-link"></i></a>
+              <a href="https://x.com/Lsnenterprise"><i class="fa-brands fa-twitter social-icons--nav footer-icons--nav footer-icons--nav__dark my-footer-link"></i></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <!--Javascript Links-->
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a1500e6705.js" crossorigin="anonymous"></script>
+
+    <!-- Default Javascript -->
+    <script src="javascript/script.js"></script>
+
+    <!-- Bootstrap js & popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+    <!-- EmailJS CDN content -->
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  
+    <script type="text/javascript">
+    emailjs.init('opTlIyV5xv3MmVGwe')
+    </script>
+</body>
+
+</html>
